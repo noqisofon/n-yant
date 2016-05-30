@@ -1,0 +1,15 @@
+# -*- mode: gitignore; coding: utf-8; -*-
+#
+#
+#
+# Emacs Temporaty files
+*~
+\#*#
+
+# Build Result Files
+*.exe
+*.dll
+
+# Nuget
+.nuget/
+packages/

@@ -1,0 +1,27 @@
+using System;
+
+namespace Yant.Console {
+
+    class Framework {
+        public this(version : string, probe_paths : array[string]) {
+            version_ = version;
+            probe_paths_ = probe_paths;
+        }
+
+        public Version : string {
+            get { version_ }
+        }
+
+        public ProbePaths : array[string] {
+            get { probe_paths_ }
+        }
+
+        public static GetRuntimeFramework() : Framework {
+            null;
+        }
+
+        private version_ : string;
+
+        private probe_paths_ : array[string];
+    }
+}

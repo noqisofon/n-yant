@@ -1,0 +1,19 @@
+using System;
+using NLog;
+
+class EntryPoint {
+
+    static Main(args : array[string]) : int {
+        def current_domain = AppDomain.CurrentDomain;
+
+        __logger.Debug( "Hello, World!" );
+
+        0;
+    }
+
+    static __logger : Logger = LogManager.GetCurrentClassLogger();
+}
+
+// def exit_code = main( Environment.GetCommandLineArgs() );
+
+// Environment.Exit( exit_code );

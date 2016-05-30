@@ -1,0 +1,14 @@
+using System;
+
+namespace Yant.Core {
+
+    public class Project {
+
+        public this() {
+        }
+
+        private __RootName : string = "project";
+
+        private __ProjectAttreibuteName : string = "name";
+    }
+}
